@@ -71,3 +71,4 @@ function showResult(reward) {
     <div class="result-content">
       <div class="result-icon">${reward.icon}</div>
       <div class="result-name">${reward.name}</div>
+      <div class="result-message">${message}</div>
