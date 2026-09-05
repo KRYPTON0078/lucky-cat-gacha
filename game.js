@@ -118,3 +118,4 @@ function reset() {
   renderHistory();
   updateDrawButton();
 }
+
