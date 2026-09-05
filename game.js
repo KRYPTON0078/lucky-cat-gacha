@@ -48,3 +48,4 @@ function renderHistory() {
         <span class="history-icon">${entry.icon}</span>
         <span class="history-name">${entry.name}</span>
       </li>`
+    )
