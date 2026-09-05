@@ -318,3 +318,4 @@ body {
   0%, 100% { transform: translateX(0) rotate(0deg); }
   25% { transform: translateX(-4px) rotate(-5deg); }
   75% { transform: translateX(4px) rotate(5deg); }
+}
