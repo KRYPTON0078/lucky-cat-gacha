@@ -294,3 +294,4 @@ body {
   background: radial-gradient(circle at 30% 30%, #fff, #ccc);
   border-radius: 50%;
   border: 2px solid #999;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
