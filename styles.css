@@ -122,3 +122,4 @@ body {
 .reward-icon.thanks { background: linear-gradient(135deg, #ddd, #aaa); }
 
 .reward-info {
+  flex: 1;
