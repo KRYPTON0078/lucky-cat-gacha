@@ -86,3 +86,4 @@ function selectReward() {
   }
   return REWARDS[REWARDS.length - 1];
 }
+
