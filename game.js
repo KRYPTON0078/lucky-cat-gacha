@@ -97,3 +97,4 @@ function draw() {
   setTimeout(() => {
     const reward = selectReward();
     chances -= 1;
+    drawHistory.push(reward);
