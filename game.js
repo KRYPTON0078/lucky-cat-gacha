@@ -35,3 +35,4 @@ function renderRewardsList() {
 }
 
 function renderHistory() {
+  if (drawHistory.length === 0) {
