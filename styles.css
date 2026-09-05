@@ -349,3 +349,4 @@ body {
   animation: result-pop 0.4s ease-out;
 }
 
+@keyframes result-pop {
