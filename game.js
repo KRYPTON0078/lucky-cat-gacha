@@ -117,3 +117,4 @@ function reset() {
   clearResult();
   renderHistory();
   updateDrawButton();
+}
