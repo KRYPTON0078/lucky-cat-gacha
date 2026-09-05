@@ -226,3 +226,4 @@ body {
 .gacha-machine {
   width: min(160px, 100%);
   display: flex;
+  flex-direction: column;
