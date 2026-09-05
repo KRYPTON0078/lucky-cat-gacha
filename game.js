@@ -74,3 +74,4 @@ function showResult(reward) {
       <div class="result-message">${message}</div>
     </div>`;
 }
+
