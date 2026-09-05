@@ -87,3 +87,4 @@ function selectReward() {
   return REWARDS[REWARDS.length - 1];
 }
 
+function draw() {
