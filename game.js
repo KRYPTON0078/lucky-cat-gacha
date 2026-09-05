@@ -83,3 +83,4 @@ function selectReward() {
     if (roll < cumulative) {
       return reward;
     }
+  }
