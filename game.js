@@ -75,3 +75,4 @@ function showResult(reward) {
     </div>`;
 }
 
+function selectReward() {
