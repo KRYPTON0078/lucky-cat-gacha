@@ -24,3 +24,4 @@ const btnResetEl = document.getElementById('btn-reset');
 function renderRewardsList() {
   rewardsListEl.innerHTML = REWARDS.map(
     (r) => `
+      <li class="reward-item">
