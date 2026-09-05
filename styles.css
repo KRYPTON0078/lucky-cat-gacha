@@ -93,3 +93,4 @@ body {
 }
 
 .reward-item {
+  display: flex;
