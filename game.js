@@ -58,3 +58,4 @@ function updateChancesDisplay() {
 
 function updateDrawButton() {
   btnDrawEl.disabled = isDrawing || chances <= 0;
+}
