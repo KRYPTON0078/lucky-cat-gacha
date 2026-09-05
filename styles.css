@@ -182,3 +182,4 @@ body {
 .history-name {
   color: #444;
   font-weight: 600;
+  white-space: nowrap;
