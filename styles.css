@@ -75,3 +75,4 @@ body {
 
 .history-panel {
   align-self: stretch;
+  flex: 0 1 auto;
