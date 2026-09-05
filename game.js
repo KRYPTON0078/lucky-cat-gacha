@@ -111,3 +111,4 @@ function draw() {
 function reset() {
   chances = INITIAL_CHANCES;
   isDrawing = false;
+  drawHistory = [];
