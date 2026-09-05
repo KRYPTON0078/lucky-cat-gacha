@@ -9,3 +9,4 @@ const REWARDS = [
 const INITIAL_CHANCES = 5;
 const DRAW_ANIMATION_MS = 1000;
 
+let chances = INITIAL_CHANCES;
