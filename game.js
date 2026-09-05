@@ -6,3 +6,4 @@ const REWARDS = [
   { name: 'Thank You for Participating', prob: 50, icon: '💝', cssClass: 'thanks' },
 ];
 
+const INITIAL_CHANCES = 5;
