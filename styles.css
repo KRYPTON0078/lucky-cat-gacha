@@ -390,3 +390,4 @@ body {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s, opacity 0.15s;
