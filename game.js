@@ -80,3 +80,4 @@ function selectReward() {
   let cumulative = 0;
   for (const reward of REWARDS) {
     cumulative += reward.prob;
+    if (roll < cumulative) {
