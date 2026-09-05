@@ -144,3 +144,4 @@ body {
 .history-list {
   list-style: none;
   overflow-y: auto;
+  flex: 1;
