@@ -52,3 +52,4 @@ function renderHistory() {
     .join('');
 }
 
+function updateChancesDisplay() {
