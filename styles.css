@@ -310,3 +310,4 @@ body {
   animation: capsule-shake 0.15s infinite;
 }
 
+.gacha-machine.animating .machine-knob {
