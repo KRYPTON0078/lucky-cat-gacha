@@ -94,3 +94,4 @@ function draw() {
   updateDrawButton();
   gachaMachineEl.classList.add('animating');
 
+  setTimeout(() => {
