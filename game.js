@@ -31,3 +31,4 @@ function renderRewardsList() {
           <div class="reward-prob">${r.prob.toFixed(2)}%</div>
         </div>
       </li>`
+  ).join('');
