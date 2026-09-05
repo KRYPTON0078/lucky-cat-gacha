@@ -41,3 +41,4 @@ function renderHistory() {
   }
 
   historyListEl.innerHTML = drawHistory
+    .map(
