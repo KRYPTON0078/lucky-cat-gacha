@@ -123,3 +123,4 @@ btnDrawEl.addEventListener('click', draw);
 btnResetEl.addEventListener('click', reset);
 
 renderRewardsList();
+renderHistory();
