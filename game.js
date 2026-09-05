@@ -99,3 +99,4 @@ function draw() {
     chances -= 1;
     drawHistory.push(reward);
     updateChancesDisplay();
+    showResult(reward);
