@@ -292,3 +292,4 @@ body {
   width: 28px;
   height: 28px;
   background: radial-gradient(circle at 30% 30%, #fff, #ccc);
+  border-radius: 50%;
