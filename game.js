@@ -53,3 +53,4 @@ function renderHistory() {
 }
 
 function updateChancesDisplay() {
+  chancesCountEl.textContent = chances;
