@@ -115,3 +115,4 @@ function reset() {
   gachaMachineEl.classList.remove('animating');
   updateChancesDisplay();
   clearResult();
+  renderHistory();
