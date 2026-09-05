@@ -49,3 +49,4 @@ function renderHistory() {
         <span class="history-name">${entry.name}</span>
       </li>`
     )
+    .join('');
