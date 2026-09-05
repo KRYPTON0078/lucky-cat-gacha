@@ -165,3 +165,4 @@ body {
 }
 
 .history-item:last-child {
+  border-bottom: none;
