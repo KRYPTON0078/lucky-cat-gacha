@@ -320,3 +320,4 @@ body {
   75% { transform: translateX(4px) rotate(5deg); }
 }
 
+@keyframes knob-spin {
