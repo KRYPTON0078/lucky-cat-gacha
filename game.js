@@ -73,3 +73,4 @@ function showResult(reward) {
       <div class="result-name">${reward.name}</div>
       <div class="result-message">${message}</div>
     </div>`;
+}
