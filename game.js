@@ -102,3 +102,4 @@ function draw() {
     showResult(reward);
     renderHistory();
 
+    gachaMachineEl.classList.remove('animating');
