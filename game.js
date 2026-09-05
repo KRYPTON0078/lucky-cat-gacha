@@ -79,3 +79,4 @@ function selectReward() {
   const roll = Math.random() * 100;
   let cumulative = 0;
   for (const reward of REWARDS) {
+    cumulative += reward.prob;
