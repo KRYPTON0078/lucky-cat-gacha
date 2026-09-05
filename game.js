@@ -4,3 +4,4 @@ const REWARDS = [
   { name: 'Blue Lucky Cat', prob: 13.33, icon: '🐱', cssClass: 'blue' },
   { name: 'Cat Sticker', prob: 26.67, icon: '🏷️', cssClass: 'sticker' },
   { name: 'Thank You for Participating', prob: 50, icon: '💝', cssClass: 'thanks' },
+];
