@@ -50,3 +50,4 @@ body {
   gap: 10px;
   min-height: 0;
   min-width: 0;
+  overflow: hidden;
