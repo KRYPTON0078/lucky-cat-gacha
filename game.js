@@ -47,3 +47,4 @@ function renderHistory() {
         <span class="history-num">Draw ${i + 1}</span>
         <span class="history-icon">${entry.icon}</span>
         <span class="history-name">${entry.name}</span>
+      </li>`
