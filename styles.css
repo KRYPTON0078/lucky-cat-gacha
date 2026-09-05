@@ -379,3 +379,4 @@ body {
   gap: 8px;
   flex-shrink: 0;
   width: 100%;
+  max-width: 260px;
