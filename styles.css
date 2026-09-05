@@ -262,3 +262,4 @@ body {
 .capsule-top {
   width: 36px;
   height: 24px;
+  background: linear-gradient(180deg, #fff 0%, #f0f0f0 100%);
