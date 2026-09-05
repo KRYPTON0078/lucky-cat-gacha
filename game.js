@@ -119,3 +119,4 @@ function reset() {
   updateDrawButton();
 }
 
+btnDrawEl.addEventListener('click', draw);
