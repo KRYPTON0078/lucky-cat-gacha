@@ -20,3 +20,4 @@ const gachaMachineEl = document.getElementById('gacha-machine');
 const resultDisplayEl = document.getElementById('result-display');
 const btnDrawEl = document.getElementById('btn-draw');
 const btnResetEl = document.getElementById('btn-reset');
+
