@@ -22,3 +22,4 @@ const btnDrawEl = document.getElementById('btn-draw');
 const btnResetEl = document.getElementById('btn-reset');
 
 function renderRewardsList() {
+  rewardsListEl.innerHTML = REWARDS.map(
