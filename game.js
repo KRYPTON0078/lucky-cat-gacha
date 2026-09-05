@@ -38,3 +38,4 @@ function renderHistory() {
   if (drawHistory.length === 0) {
     historyListEl.innerHTML = '<li class="history-empty">No draws yet</li>';
     return;
+  }
