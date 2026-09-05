@@ -113,3 +113,4 @@ function reset() {
   isDrawing = false;
   drawHistory = [];
   gachaMachineEl.classList.remove('animating');
+  updateChancesDisplay();
