@@ -14,3 +14,4 @@ let isDrawing = false;
 let drawHistory = [];
 
 const rewardsListEl = document.getElementById('rewards-list');
+const historyListEl = document.getElementById('history-list');
