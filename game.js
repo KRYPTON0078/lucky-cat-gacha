@@ -25,3 +25,4 @@ function renderRewardsList() {
   rewardsListEl.innerHTML = REWARDS.map(
     (r) => `
       <li class="reward-item">
+        <div class="reward-icon ${r.cssClass}">${r.icon}</div>
