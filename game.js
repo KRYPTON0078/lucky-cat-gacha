@@ -13,3 +13,4 @@ let chances = INITIAL_CHANCES;
 let isDrawing = false;
 let drawHistory = [];
 
+const rewardsListEl = document.getElementById('rewards-list');
