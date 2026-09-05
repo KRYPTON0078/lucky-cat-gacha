@@ -46,3 +46,4 @@ body {
 
 .game-main {
   flex: 1;
+  display: flex;
