@@ -96,3 +96,4 @@ function draw() {
 
   setTimeout(() => {
     const reward = selectReward();
+    chances -= 1;
