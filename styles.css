@@ -377,3 +377,4 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
+  flex-shrink: 0;
