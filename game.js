@@ -50,3 +50,4 @@ function renderHistory() {
       </li>`
     )
     .join('');
+}
