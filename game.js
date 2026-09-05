@@ -98,3 +98,4 @@ function draw() {
     const reward = selectReward();
     chances -= 1;
     drawHistory.push(reward);
+    updateChancesDisplay();
