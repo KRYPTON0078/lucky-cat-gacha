@@ -145,3 +145,4 @@ body {
   list-style: none;
   overflow-y: auto;
   flex: 1;
+  min-height: 0;
