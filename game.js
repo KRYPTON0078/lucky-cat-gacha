@@ -61,3 +61,4 @@ function updateDrawButton() {
 }
 
 function clearResult() {
+  resultDisplayEl.innerHTML = '<p class="result-placeholder">Press "Draw Once" to start!</p>';
