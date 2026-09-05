@@ -88,3 +88,4 @@ function selectReward() {
 }
 
 function draw() {
+  if (isDrawing || chances <= 0) return;
