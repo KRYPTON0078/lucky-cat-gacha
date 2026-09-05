@@ -15,3 +15,4 @@ let drawHistory = [];
 
 const rewardsListEl = document.getElementById('rewards-list');
 const historyListEl = document.getElementById('history-list');
+const chancesCountEl = document.getElementById('chances-count');
