@@ -43,3 +43,4 @@ function renderHistory() {
   historyListEl.innerHTML = drawHistory
     .map(
       (entry, i) => `
+      <li class="history-item">
