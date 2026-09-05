@@ -32,3 +32,4 @@ function renderRewardsList() {
         </div>
       </li>`
   ).join('');
+}
