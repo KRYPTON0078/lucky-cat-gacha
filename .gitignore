@@ -16,3 +16,4 @@ credentials.json
 
 # Python (temp test scripts)
 __pycache__/
+*.pyc
