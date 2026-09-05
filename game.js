@@ -105,3 +105,4 @@ function draw() {
     gachaMachineEl.classList.remove('animating');
     isDrawing = false;
     updateDrawButton();
+  }, DRAW_ANIMATION_MS);
