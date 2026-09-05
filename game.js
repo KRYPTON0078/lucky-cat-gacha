@@ -70,3 +70,4 @@ function showResult(reward) {
   resultDisplayEl.innerHTML = `
     <div class="result-content">
       <div class="result-icon">${reward.icon}</div>
+      <div class="result-name">${reward.name}</div>
