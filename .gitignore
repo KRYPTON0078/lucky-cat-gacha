@@ -14,3 +14,4 @@ desktop.ini
 *.pem
 credentials.json
 
+# Python (temp test scripts)
