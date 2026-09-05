@@ -82,3 +82,4 @@ function selectReward() {
     cumulative += reward.prob;
     if (roll < cumulative) {
       return reward;
+    }
