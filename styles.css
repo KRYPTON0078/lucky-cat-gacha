@@ -236,3 +236,4 @@ body {
   max-width: 130px;
   height: 100px;
   background: linear-gradient(180deg, #ff8fa3 0%, #e85d75 100%);
+  border-radius: 12px 12px 4px 4px;
