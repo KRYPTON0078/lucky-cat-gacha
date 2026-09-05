@@ -101,3 +101,4 @@ function draw() {
     updateChancesDisplay();
     showResult(reward);
     renderHistory();
+
