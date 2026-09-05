@@ -100,3 +100,4 @@ function draw() {
     drawHistory.push(reward);
     updateChancesDisplay();
     showResult(reward);
+    renderHistory();
