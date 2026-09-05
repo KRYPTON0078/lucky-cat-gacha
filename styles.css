@@ -132,3 +132,4 @@ body {
   color: #444;
   white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
