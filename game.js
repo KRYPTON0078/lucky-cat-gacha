@@ -39,3 +39,4 @@ function renderHistory() {
     historyListEl.innerHTML = '<li class="history-empty">No draws yet</li>';
     return;
   }
+
