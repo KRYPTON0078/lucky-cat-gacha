@@ -403,3 +403,4 @@ body {
   transform: translateY(0);
 }
 
+.btn:disabled {
