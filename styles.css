@@ -314,3 +314,4 @@ body {
   animation: knob-spin 1s ease-in-out;
 }
 
+@keyframes capsule-shake {
