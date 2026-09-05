@@ -40,3 +40,4 @@ function renderHistory() {
     return;
   }
 
+  historyListEl.innerHTML = drawHistory
