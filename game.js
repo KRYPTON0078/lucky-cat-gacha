@@ -120,3 +120,4 @@ function reset() {
 }
 
 btnDrawEl.addEventListener('click', draw);
+btnResetEl.addEventListener('click', reset);
