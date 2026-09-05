@@ -44,3 +44,4 @@ function renderHistory() {
     .map(
       (entry, i) => `
       <li class="history-item">
+        <span class="history-num">Draw ${i + 1}</span>
