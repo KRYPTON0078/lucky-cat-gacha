@@ -41,3 +41,4 @@ body {
 .subtitle {
   font-size: clamp(11px, 2vw, 13px);
   color: #888;
+  margin-top: 2px;
