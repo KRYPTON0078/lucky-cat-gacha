@@ -394,3 +394,4 @@ body {
   white-space: nowrap;
 }
 
+.btn:hover:not(:disabled) {
