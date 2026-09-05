@@ -60,3 +60,4 @@ function updateDrawButton() {
   btnDrawEl.disabled = isDrawing || chances <= 0;
 }
 
+function clearResult() {
