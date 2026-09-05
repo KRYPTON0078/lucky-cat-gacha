@@ -131,3 +131,4 @@ body {
   font-weight: 600;
   color: #444;
   white-space: nowrap;
+  overflow: hidden;
