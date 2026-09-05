@@ -26,3 +26,4 @@ function renderRewardsList() {
     (r) => `
       <li class="reward-item">
         <div class="reward-icon ${r.cssClass}">${r.icon}</div>
+        <div class="reward-info">
