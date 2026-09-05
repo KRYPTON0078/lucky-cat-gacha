@@ -18,3 +18,4 @@ const historyListEl = document.getElementById('history-list');
 const chancesCountEl = document.getElementById('chances-count');
 const gachaMachineEl = document.getElementById('gacha-machine');
 const resultDisplayEl = document.getElementById('result-display');
+const btnDrawEl = document.getElementById('btn-draw');
