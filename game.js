@@ -56,3 +56,4 @@ function updateChancesDisplay() {
   chancesCountEl.textContent = chances;
 }
 
+function updateDrawButton() {
