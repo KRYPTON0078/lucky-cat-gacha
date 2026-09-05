@@ -328,3 +328,4 @@ body {
 .result-display {
   width: 100%;
   max-width: 260px;
+  min-height: 64px;
