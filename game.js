@@ -106,3 +106,4 @@ function draw() {
     isDrawing = false;
     updateDrawButton();
   }, DRAW_ANIMATION_MS);
+}
