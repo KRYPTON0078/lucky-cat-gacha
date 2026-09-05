@@ -68,3 +68,4 @@ function showResult(reward) {
   const message =
     reward.cssClass === 'thanks' ? 'Better luck next time!' : 'Congratulations!';
   resultDisplayEl.innerHTML = `
+    <div class="result-content">
