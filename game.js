@@ -21,3 +21,4 @@ const resultDisplayEl = document.getElementById('result-display');
 const btnDrawEl = document.getElementById('btn-draw');
 const btnResetEl = document.getElementById('btn-reset');
 
+function renderRewardsList() {
