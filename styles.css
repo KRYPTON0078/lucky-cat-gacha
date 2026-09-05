@@ -170,3 +170,4 @@ body {
 
 .history-num {
   color: #999;
+  flex-shrink: 0;
