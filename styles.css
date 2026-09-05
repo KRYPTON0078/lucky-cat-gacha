@@ -206,3 +206,4 @@ body {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
   display: flex;
   align-items: center;
+  gap: 8px;
