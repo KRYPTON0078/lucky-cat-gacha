@@ -115,3 +115,4 @@ body {
   flex-shrink: 0;
 }
 
+.reward-icon.gold { background: linear-gradient(135deg, #ffd700, #ffb347); }
