@@ -11,3 +11,4 @@ body {
   height: 100vh;
   overflow: hidden;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: linear-gradient(135deg, #fff5f0 0%, #ffe8f5 50%, #f0e8ff 100%);
