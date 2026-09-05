@@ -315,3 +315,4 @@ body {
 }
 
 @keyframes capsule-shake {
+  0%, 100% { transform: translateX(0) rotate(0deg); }
