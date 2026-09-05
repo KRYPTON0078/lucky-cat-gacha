@@ -327,3 +327,4 @@ body {
 
 .result-display {
   width: 100%;
+  max-width: 260px;
