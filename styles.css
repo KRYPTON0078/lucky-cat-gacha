@@ -56,3 +56,4 @@ body {
 .rewards-panel,
 .history-panel {
   width: 38%;
+  max-width: 180px;
