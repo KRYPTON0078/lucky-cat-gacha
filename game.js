@@ -45,3 +45,4 @@ function renderHistory() {
       (entry, i) => `
       <li class="history-item">
         <span class="history-num">Draw ${i + 1}</span>
+        <span class="history-icon">${entry.icon}</span>
