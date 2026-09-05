@@ -103,3 +103,4 @@ function draw() {
     renderHistory();
 
     gachaMachineEl.classList.remove('animating');
+    isDrawing = false;
