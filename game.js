@@ -65,3 +65,4 @@ function clearResult() {
 }
 
 function showResult(reward) {
+  const message =
