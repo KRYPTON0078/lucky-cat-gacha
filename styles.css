@@ -94,3 +94,4 @@ body {
 
 .reward-item {
   display: flex;
+  align-items: center;
