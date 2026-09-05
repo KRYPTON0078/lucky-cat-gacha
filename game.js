@@ -84,3 +84,4 @@ function selectReward() {
       return reward;
     }
   }
+  return REWARDS[REWARDS.length - 1];
