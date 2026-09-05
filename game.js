@@ -76,3 +76,4 @@ function showResult(reward) {
 }
 
 function selectReward() {
+  const roll = Math.random() * 100;
