@@ -69,3 +69,4 @@ function showResult(reward) {
     reward.cssClass === 'thanks' ? 'Better luck next time!' : 'Congratulations!';
   resultDisplayEl.innerHTML = `
     <div class="result-content">
+      <div class="result-icon">${reward.icon}</div>
