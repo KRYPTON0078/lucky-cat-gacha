@@ -270,3 +270,4 @@ body {
 .capsule-bottom {
   width: 36px;
   height: 24px;
+  background: linear-gradient(180deg, #ffd700 0%, #ffb347 100%);
