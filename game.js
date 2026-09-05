@@ -95,3 +95,4 @@ function draw() {
   gachaMachineEl.classList.add('animating');
 
   setTimeout(() => {
+    const reward = selectReward();
