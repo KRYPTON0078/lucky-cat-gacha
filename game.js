@@ -124,3 +124,4 @@ btnResetEl.addEventListener('click', reset);
 
 renderRewardsList();
 renderHistory();
+updateChancesDisplay();
