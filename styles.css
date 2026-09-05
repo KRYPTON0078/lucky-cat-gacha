@@ -238,3 +238,4 @@ body {
   background: linear-gradient(180deg, #ff8fa3 0%, #e85d75 100%);
   border-radius: 12px 12px 4px 4px;
   padding: 8px;
+  position: relative;
