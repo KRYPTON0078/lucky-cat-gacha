@@ -11,6 +11,8 @@ desktop.ini
 # Secrets
 .env
 .env.*
+!.env.example
+!repo-pulse/.env.example
 *.pem
 credentials.json
 
