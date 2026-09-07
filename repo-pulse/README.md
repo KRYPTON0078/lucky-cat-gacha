@@ -33,74 +33,25 @@ GitHub webhook (pull_request)
 
 ## Support
 
-**Email:** set `SUPPORT_EMAIL` in `.env` (also shown on `GET /`).  
-Default placeholder in `.env.example`: `you@example.com` — replace with an address GitHub users can reach.
+**Email:** `magnedinanevesdina@gmail.com` (override with `SUPPORT_EMAIL`). Shown on `GET /`.
 
-## Quick start (development)
-
-### 1. Clone and install
+## Automated setup
 
 ```bash
-git clone https://github.com/KRYPTON0078/repo-pulse.git
 cd repo-pulse
-python3 -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+bash scripts/bootstrap.sh
+# open the printed SETUP URL while logged into GitHub
+# GitHub confirms the App Manifest → RepoPulse stores App ID, webhook secret, and PEM
+# you are redirected to install the app on a repository
 ```
 
-### 2. Register a GitHub App (manual)
+Then join the program at [github.com/developer/register](https://github.com/developer/register) with:
 
-Open [github.com/settings/apps/new](https://github.com/settings/apps/new) and configure:
+- Integration: **RepoPulse**
+- URL: this repo or the public homepage from bootstrap
+- Support email: `magnedinanevesdina@gmail.com`
 
-| Field | Value |
-| --- | --- |
-| Homepage URL | `https://github.com/KRYPTON0078/repo-pulse` |
-| Webhook URL | `https://<public-tunnel>/webhook` |
-| Webhook secret | any strong secret → `WEBHOOK_SECRET` |
-| Pull requests | Read & write |
-| Checks | Read-only |
-| Metadata | Read-only |
-| Issues | Read-only |
-| Events | **Pull request** |
-
-Then:
-
-- Copy **App ID** → `APP_ID`
-- Generate and download a **private key** → `private-key.pem`
-- Install the app on a test repository
-
-Print the full checklist anytime:
-
-```bash
-bash scripts/register-checklist.sh
-```
-
-### 3. Configure environment
-
-```bash
-cp .env.example .env
-# edit APP_ID, WEBHOOK_SECRET, PRIVATE_KEY_PATH, SUPPORT_EMAIL
-```
-
-### 4. Run the server + tunnel
-
-```bash
-uvicorn app.main:app --host 0.0.0.0 --port 8000
-```
-
-In another terminal, expose HTTPS (example with ngrok):
-
-```bash
-ngrok http 8000
-```
-
-Point the GitHub App webhook at `https://<ngrok-host>/webhook`.
-
-### 5. Verify
-
-- `GET /health` → `{"status":"ok",...}`
-- `GET /` → product page with support email
-- Open a PR on an installed repo → RepoPulse posts a summary comment
+Manual field-by-field App creation is still documented in `scripts/register-checklist.sh`.
 
 ## Docker
 
@@ -109,7 +60,7 @@ docker build -t repopulse .
 docker run --rm -p 8000:8000 \
   -e APP_ID=... \
   -e WEBHOOK_SECRET=... \
-  -e SUPPORT_EMAIL=you@example.com \
+  -e SUPPORT_EMAIL=magnedinanevesdina@gmail.com \
   -e PRIVATE_KEY_PATH=/secrets/private-key.pem \
   -v "$PWD/private-key.pem:/secrets/private-key.pem:ro" \
   repopulse
@@ -119,17 +70,20 @@ docker run --rm -p 8000:8000 \
 
 ```text
 app/
-  main.py          # FastAPI: /, /health, /webhook
+  main.py          # FastAPI: /, /health, /status, /setup, /webhook
   config.py        # env settings
   github_auth.py   # App JWT + installation token
   github_api.py    # REST + GraphQL client
   pr_summary.py    # comment markdown builder
   webhook.py       # signature verify + PR handler
+  manifest.py      # GitHub App Manifest create + credential save
 scripts/
+  bootstrap.sh     # server + public HTTPS tunnel
   register-checklist.sh
   gen-dev-key.sh
 tests/
   test_core.py
+  test_manifest.py
 ```
 
 ## Join the GitHub Developer Program

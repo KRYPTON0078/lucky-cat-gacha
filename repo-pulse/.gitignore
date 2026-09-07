@@ -4,6 +4,7 @@ __pycache__/
 .venv/
 venv/
 .env
+.manifest-state
 private-key.pem
 *.pem
 .pytest_cache/
